@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b1b76a3.css",
+    "main.js": "/static/js/main.248e20b5.js",
+    "static/js/453.3322db2a.chunk.js": "/static/js/453.3322db2a.chunk.js",
+    "static/media/1. The Sorrow of Eldoria.png": "/static/media/1. The Sorrow of Eldoria.fdd2b1a2012664c5b2da.png",
+    "static/media/5. A New Beginning.png": "/static/media/5. A New Beginning.4e3ead023f1c56beb617.png",
+    "static/media/2. The Whispering Woods.png": "/static/media/2. The Whispering Woods.712b57babf3f4084cdb3.png",
+    "static/media/4. The Dragon Egg's Song.png": "/static/media/4. The Dragon Egg's Song.ba3d3af445f6febdefc0.png",
+    "static/media/3. The Crystal Guardian.png": "/static/media/3. The Crystal Guardian.bec38ce85b14a20dcd09.png",
+    "index.html": "/index.html",
+    "main.2b1b76a3.css.map": "/static/css/main.2b1b76a3.css.map",
+    "main.248e20b5.js.map": "/static/js/main.248e20b5.js.map",
+    "453.3322db2a.chunk.js.map": "/static/js/453.3322db2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b1b76a3.css",
+    "static/js/main.248e20b5.js"
+  ]
+}

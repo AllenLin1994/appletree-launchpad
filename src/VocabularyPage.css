@@ -1,0 +1,356 @@
+/* VocabularyPage.css */
+.vocabulary-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e6f0ff 0%, #c9e0ff 100%);
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+/* 头部样式 */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #e8f4ff;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.back-button, .home-button {
+  background: none;
+  border: none;
+  color: #7f8c8d;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  background: rgba(52, 152, 219, 0.1);
+}
+
+.back-button:hover, .home-button:hover {
+  color: #3498db;
+  background: rgba(52, 152, 219, 0.2);
+  transform: translateY(-2px);
+}
+
+.header-content {
+  text-align: center;
+  flex: 1;
+  min-width: 300px;
+}
+
+.book-icon {
+  margin-bottom: 0.5rem;
+}
+
+.header-content h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.header-content p {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.vocab-count {
+  display: block;
+  font-size: 0.9rem;
+  color: #95a5a6;
+  margin-top: 0.5rem;
+}
+
+/* 错误提示 */
+.error-message {
+  background: #ffe6e6;
+  color: #e74c3c;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-left: 4px solid #e74c3c;
+}
+
+/* 词汇卡片样式 */
+.vocabulary-content {
+  margin-bottom: 2rem;
+}
+
+.vocabulary-card {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.vocabulary-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.vocab-word {
+  text-align: center;
+}
+
+.vocab-emoji {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.vocab-word h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.part-of-speech {
+  display: inline-block;
+  background: #e8f4ff;
+  color: #3498db;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.vocab-definition h3,
+.vocab-example h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #7f8c8d;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.vocab-definition p,
+.vocab-example p {
+  color: #2c3e50;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.vocab-example p {
+  font-style: italic;
+  color: #5a6c7d;
+  background: #f8f9fa;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border-left: 3px solid #3498db;
+}
+
+/* 进度指示器 */
+.progress-indicator {
+  padding-top: 1rem;
+  border-top: 1px solid #e8f4ff;
+}
+
+.progress-text {
+  display: block;
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #e8f4ff;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+/* 导航按钮 */
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.nav-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+}
+
+.restart-button {
+  background: linear-gradient(135deg, #95a5a6, #7f8c8d);
+}
+
+.restart-button:hover {
+  box-shadow: 0 5px 15px rgba(149, 165, 166, 0.3);
+}
+
+.story-button {
+  background: linear-gradient(135deg, #9b59b6, #8e44ad);
+}
+
+.story-button:hover {
+  box-shadow: 0 5px 15px rgba(155, 89, 182, 0.3);
+}
+
+/* 加载状态 */
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  color: #7f8c8d;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #e8f4ff;
+  border-top: 3px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 无词汇状态 */
+.no-vocabulary {
+  text-align: center;
+  padding: 3rem;
+  color: #7f8c8d;
+}
+
+.no-vocabulary h3 {
+  margin: 1rem 0 0.5rem 0;
+  color: #2c3e50;
+}
+
+/* 页脚样式 */
+.page-footer {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #e8f4ff;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .content-container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  
+  .page-header {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .back-button, .home-button {
+    order: 2;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .header-content {
+    order: 1;
+    min-width: auto;
+  }
+  
+  .vocabulary-card {
+    padding: 1.5rem;
+  }
+  
+  .header-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .navigation-buttons {
+    flex-direction: column;
+  }
+  
+  .nav-button {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .vocabulary-page {
+    padding: 10px;
+  }
+  
+  .content-container {
+    padding: 1.25rem;
+    border-radius: 15px;
+  }
+  
+  .vocabulary-card {
+    padding: 1.25rem;
+  }
+  
+  .vocab-emoji {
+    font-size: 2.5rem;
+  }
+  
+  .vocab-word h2 {
+    font-size: 1.5rem;
+  }
+  
+  .nav-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.8rem;
+  }
+}
