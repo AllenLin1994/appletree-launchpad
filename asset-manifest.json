@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/appletree-launchpad/static/css/main.2b1b76a3.css",
-    "main.js": "/appletree-launchpad/static/js/main.5befcfd9.js",
+    "main.js": "/appletree-launchpad/static/js/main.a53e5314.js",
     "static/js/453.3322db2a.chunk.js": "/appletree-launchpad/static/js/453.3322db2a.chunk.js",
     "static/media/1. The Sorrow of Eldoria.png": "/appletree-launchpad/static/media/1. The Sorrow of Eldoria.fdd2b1a2012664c5b2da.png",
     "static/media/5. A New Beginning.png": "/appletree-launchpad/static/media/5. A New Beginning.4e3ead023f1c56beb617.png",
@@ -10,11 +10,11 @@
     "static/media/3. The Crystal Guardian.png": "/appletree-launchpad/static/media/3. The Crystal Guardian.bec38ce85b14a20dcd09.png",
     "index.html": "/appletree-launchpad/index.html",
     "main.2b1b76a3.css.map": "/appletree-launchpad/static/css/main.2b1b76a3.css.map",
-    "main.5befcfd9.js.map": "/appletree-launchpad/static/js/main.5befcfd9.js.map",
+    "main.a53e5314.js.map": "/appletree-launchpad/static/js/main.a53e5314.js.map",
     "453.3322db2a.chunk.js.map": "/appletree-launchpad/static/js/453.3322db2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b1b76a3.css",
-    "static/js/main.5befcfd9.js"
+    "static/js/main.a53e5314.js"
   ]
 }
